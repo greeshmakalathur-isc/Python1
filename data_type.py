@@ -54,7 +54,25 @@ sentence='I\'m back at work!\tHey!\n\nWhere\'s this at located?'
 print(sentence)
 
 #STRING METHODS
+print(first)
+print(first.upper())
+print(first.lower())
+print(first)
 
+print(multiline.title())
+print(multiline.replace("ok", "good"))
+print(multiline)
+
+print(len(multiline))
+multiline += "                                        "
+multiline = "                  " + multiline
+print(len(multiline))
+print(len(multiline.strip()))
+print(len(multiline.lstrip()))
+print(len(multiline.rstrip()))
+print('')
+
+#BUILD A MENU
 
 
 
